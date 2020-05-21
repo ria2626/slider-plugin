@@ -1,0 +1,42 @@
+.clearfix:after{
+    content:'';
+    clear:both;
+}
+.clearfix:before{
+    content:'';
+    clear:both;
+}
+
+.clear{
+    clear:both;
+}
+.delete-custom-img-main {
+position: absolute;
+right: 0;
+top: 0;
+}
+.image-wrapper{
+    float:left;
+    position:relative;
+    margin:0 5px;
+}
+.image-wrapper img {
+ width: 200px;
+}
+.custom-content{
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+.upload-custom-img{
+    color:transparent !important;
+}
+.upload-custom-img:focus{
+    box-shadow: none !important;
+}
+.upload-custom-img img{
+    width:50px;
+}
+.delete-custom-img-main img {
+    width: 20px;
+    }
